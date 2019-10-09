@@ -3,7 +3,7 @@ SM3_highP is a open-source implement of SM3(Chinese Commercial Hash algorithm st
 
 The interface of SM3_highP is a AXI-Stream-like protocol, support. Width of Input data is 64 bytes but IP supports byte-alignment input by tkeep signal in bus.
 
-Based on SM3_highP SM3 IP Core, SM3_highP_Ethe integrades 1000M ethernet interface for SM3. Implementing on Xilinx Zynq-7020 device , system throughout can reach more than 700Mbps and reduce calculating time to half of time consumed by General CPU(Intel Core i7-7700K). 
+Based on SM3_highP SM3 IP Core, SM3_highP_Ethe integrates 1000M ethernet interface for SM3. Implementing on Xilinx Zynq-7020 device , system throughout can reach more than 700Mbps and reduce calculating time to half of time consumed by General CPU(Intel Core i7-7700K). 
 Although SM3_highP_Ethe is close-source now because of use multiple Xilinx IP which are hard to transparent relatively, you are welcome to contact me if you have interest on it.
 
 
